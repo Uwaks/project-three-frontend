@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4c0e61a4.chunk.css",
+    "main.js": "/static/js/main.245c0800.chunk.js",
+    "main.js.map": "/static/js/main.245c0800.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.54cf774c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.54cf774c.js.map",
+    "static/css/2.af3ab7ac.chunk.css": "/static/css/2.af3ab7ac.chunk.css",
+    "static/js/2.ddf2e568.chunk.js": "/static/js/2.ddf2e568.chunk.js",
+    "static/js/2.ddf2e568.chunk.js.map": "/static/js/2.ddf2e568.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.af3ab7ac.chunk.css.map": "/static/css/2.af3ab7ac.chunk.css.map",
+    "static/css/main.4c0e61a4.chunk.css.map": "/static/css/main.4c0e61a4.chunk.css.map",
+    "static/js/2.ddf2e568.chunk.js.LICENSE.txt": "/static/js/2.ddf2e568.chunk.js.LICENSE.txt",
+    "static/media/1.0caa4016.jpg": "/static/media/1.0caa4016.jpg",
+    "static/media/2.cd4e4bb6.jpg": "/static/media/2.cd4e4bb6.jpg",
+    "static/media/3.3be85899.jpg": "/static/media/3.3be85899.jpg",
+    "static/media/4.ead22783.jpeg": "/static/media/4.ead22783.jpeg",
+    "static/media/Awaydays-1.aca253a2.png": "/static/media/Awaydays-1.aca253a2.png",
+    "static/media/main.scss": "/static/media/hero2.d2160693.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54cf774c.js",
+    "static/css/2.af3ab7ac.chunk.css",
+    "static/js/2.ddf2e568.chunk.js",
+    "static/css/main.4c0e61a4.chunk.css",
+    "static/js/main.245c0800.chunk.js"
+  ]
+}

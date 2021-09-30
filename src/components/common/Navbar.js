@@ -6,34 +6,7 @@ function Nav () {
 
   // const [click, setClick] = React.useState(false)
   // const [button, setButton] = React.useState(true)
-  const [show, setShow] = React.useState(false)
-
-  const controlNavbar = () => {
-    if (window.scrollY > 100) {
-      setShow(false)
-    } else {
-      setShow(true)
-    }
-  }
-
-
-  // const changeBackground = () => {
-  // console.log(window.scrollY) 
-  //   if (window.scrollY >= 1) {
-  //     setNavbar(true)
-  //   } else {
-  //     setNavbar(false)
-  //   }
-  // }
   
-
-  // window.addEventListener('scroll', changeBackground)
-  React.useEffect(() => {
-    window.addEventListener('scroll', controlNavbar)
-    return () => {
-      window.removeEventListener('scroll', controlNavbar)
-    }
-  }, [])
 
 
   return (

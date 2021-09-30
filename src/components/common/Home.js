@@ -5,7 +5,7 @@ import Signup from './Signup'
 // import { Link, useParams } from 'react-router-dom'
 
 import { pubs } from '../../data/pubs'
-import { getAllPubs } from '../../lib/api'
+// import { getAllPubs } from '../../lib/api'
 import PubHomepageCard from '../pubs/PubHomepageCard'
 
 import image1 from '../../assets/1.jpg'

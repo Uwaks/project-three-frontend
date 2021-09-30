@@ -44,7 +44,7 @@ function Login() {
 
   return (
     <section className="section">
-    <Loading />
+      <Loading />
       <section className="section register-box" onSubmit={handleSubmit}>
         <div>
           <h1>Please Login Below</h1>

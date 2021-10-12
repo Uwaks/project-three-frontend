@@ -110,7 +110,7 @@ export const clubSchema = new mongoose.Schema({
 
 ### Pub Models & Comment Models
 
-The pubs represented the main area of user interaction as registered users had the ability to create,edit and delete their own pubs. We also created endpoints for user's to comment on pubs 
+The pubs represented the main area of user interaction as registered users had the ability to create, edit and delete their own pubs. We also created endpoints for user's to comment on pubs. 
 
 ```javascript
 export const pubSchema = new mongoose.Schema(
@@ -286,7 +286,7 @@ I used the ReactMapGL component to produce a static map on the ClubShow page, wh
 
 Our major challenge was the complexity of the data models we built, from the outset we had an idea of how we wanted the relationships to work, however accessing the data on the frontend proved very tricky.
 
-Each pub was an embedded document within the Club schema and each comment was an embedded document within the Pub schema so accessing this data on the frontend required running a map method on mapped data and a great deal of head scratching when React informed us that, '..this is not a function'
+Each pub was an embedded document within the Club schema and each comment was an embedded document within the Pub schema so accessing this data on the frontend required running a map method on mapped data and a great deal of head scratching when React informed us that, '..this is not a function'.
 
 Using GitHub proved to be a real challenge and was fundamental in changing how we worked as a team. We had to ensure we communicated effectively before pushing changes to the development branch, we also had to ensure that we left informative messages within the Git commits we each had to make.
 

@@ -52,10 +52,10 @@ Access the source code via the 'clone or download' button
 ## User Journey
 
 **_User registration_**
-<img src="/Users/uwaks/development/projects/project-three-master/client/src/assets/register.png" width="200" height="350">
+<img src="src/assets/register.png" width="200" height="350">
 
 **User login**
-<img src="/Users/uwaks/development/projects/project-three-master/client/src/assets/login-form.png" width="200" height="200">
+<img src="src/assets/login-form.png" width="200" height="200">
 
 **Creating a pub**
 <img src="src/assets/create-a-pub.png" width="150" height="300">

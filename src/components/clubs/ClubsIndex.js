@@ -1,11 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
 import Loading from '../common/Loading'
-// import heroimage from '../../assets/index-page.png'
-import axios from 'axios'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
-import { likeClub } from '../../lib/api'
+import { likeClub, getAllClubs } from '../../lib/api'
 import { isAuthenticated } from '../../lib/auth'
 
 function ClubsIndex() {
@@ -17,7 +16,7 @@ function ClubsIndex() {
   React.useEffect(() => {
     const getData = async () => {
       try {
-        const res = await axios.get('/api/clubs')
+        const res = await getAllClubs()
         setClubs(res.data) 
       } catch (err) {
         console.log(err)
